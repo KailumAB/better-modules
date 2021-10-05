@@ -1,6 +1,6 @@
-import Container from './container/Container'
 import Registrar from './registrar/Registrar'
 import Module from './module/Module'
+import { Store as VuexStore } from 'vuex'
 
 export {
   Module,
@@ -9,10 +9,9 @@ export {
 
 export default {
   Registrar,
-  install (registrar) {
+  install (registrar: Registrar): (store: VuexStore<any>) => void {
     return (store) => {
       registrar.init(store)
-      Container.register(store)
     }
   }
 }
