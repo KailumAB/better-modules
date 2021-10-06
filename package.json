@@ -1,6 +1,6 @@
 {
   "name": "bettermodules",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Importable modules for vuex",
   "main": "index.ts",
   "directories": {
@@ -25,7 +25,10 @@
   "bugs": {
     "url": "https://github.com/KailumAB/better-modules/issues"
   },
-  "files": [ "dist/**/*", "typings/**/*" ],
+  "files": [
+    "dist/**/*",
+    "typings/**/*"
+  ],
   "homepage": "https://github.com/KailumAB/better-modules#readme",
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^4.33.0",
