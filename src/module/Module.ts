@@ -1,8 +1,8 @@
 import Registrar from '../registrar/Registrar'
-import { Store, GenericStore } from '../store'
-import { Module as ModuleType } from '../module'
+import { Store, GenericStore } from '../declarations'
+import { Module as ModuleType } from '../declarations'
 
-export default class Module<State, Getters extends { [K in keyof Getters as K] }, Actions extends { [K in keyof Actions as K] }, Mutations extends { [K in keyof Mutations as K] }> implements ModuleType {
+export default class Module<State, Getters extends { [K in keyof Getters as K]: any; }, Actions extends { [K in keyof Actions as K]: any }, Mutations extends { [K in keyof Mutations as K]: any }> implements ModuleType {
 
   constructor(namespace: string, module: Store<State, Getters, Actions, Mutations>) {
     this.$namespace = namespace

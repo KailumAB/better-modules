@@ -1,5 +1,5 @@
-import { Module } from '../module'
 import { Store as VuexStore } from 'vuex'
+import { Module } from '../declarations'
 
 export default class Registrar {
     modules: Module[] = []
