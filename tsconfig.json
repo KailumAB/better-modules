@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "strict": true,
+    "jsx": "preserve",
+    "skipLibCheck": true,
+    "noImplicitAny": false,
+    "importHelpers": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "declaration": true,
+    "outDir": "./dist",
+    "declarationDir": "./typings",
+    "baseUrl": "."
+  },
+  "include": [
+    "src"
+  ],
+  "exclude": [
+    "node_modules",
+    "misc"
+  ]
+}
