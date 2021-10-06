@@ -18,8 +18,18 @@
   "bugs": {
     "url": "https://github.com/KailumAB/better-modules/issues"
   },
+  "files": [ "dist/**/*", "typings/**/*" ],
   "homepage": "https://github.com/KailumAB/better-modules#readme",
-  "dependencies": {
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.33.0",
+    "@typescript-eslint/parser": "^4.33.0",
+    "eslint": "^7.32.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-ember-suave": "^2.0.1",
+    "eslint-plugin-import": "^2.24.2",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.1.0",
+    "typescript": "^4.4.3",
     "vuex": "^3.6.2"
   }
 }
