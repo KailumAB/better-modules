@@ -1,4 +1,4 @@
-import Registrar from '../registrar/Registrar'
+import Registrar from '../registrar'
 import { Store, GenericStore } from '../declarations'
 import { Module as ModuleType } from '../declarations'
 
