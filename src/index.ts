@@ -1,5 +1,5 @@
-import Registrar from './registrar/Registrar'
-import Module from './module/Module'
+import Registrar from './registrar'
+import Module from './module'
 import { Store as VuexStore } from 'vuex'
 
 export {
