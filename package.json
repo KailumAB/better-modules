@@ -1,8 +1,9 @@
 {
   "name": "bettermodules",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Importable modules for vuex",
-  "main": "index.ts",
+  "main": "./dist/index.js",
+  "types": "./typings/index.d.ts",
   "directories": {
     "example": "examples"
   },
