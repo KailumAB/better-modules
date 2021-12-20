@@ -19,18 +19,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/KailumAB/better-modules.git"
+    "url": "git+https://github.com/kabiaa/better-modules.git"
   },
   "author": "Me",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/KailumAB/better-modules/issues"
+    "url": "https://github.com/kabiaa/better-modules/issues"
   },
   "files": [
     "dist/**/*",
     "typings/**/*"
   ],
-  "homepage": "https://github.com/KailumAB/better-modules#readme",
+  "homepage": "https://github.com/kabiaa/better-modules#readme",
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^4.33.0",
     "@typescript-eslint/parser": "^4.33.0",
